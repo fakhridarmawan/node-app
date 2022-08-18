@@ -1,5 +1,5 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello ACR !!'))
+app.get('/', (req, res) => res.send('Hello ACR Github!!'))
 app.listen(3000, () => console.log('Server ready'))
